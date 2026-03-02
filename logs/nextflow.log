@@ -1,0 +1,5 @@
+[31mERROR: Cannot find Java or it's a wrong version -- please make sure that Java 8 or later (up to 22) is installed[m
+[33mNOTE: Nextflow is trying to use the Java VM defined by the following environment variables:
+ JAVA_CMD: /usr/java/latest/bin/java
+ JAVA_HOME: /usr/java/latest
+[m

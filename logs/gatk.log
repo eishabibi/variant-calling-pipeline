@@ -1,0 +1,32 @@
+INFO  09:52:06,357 HelpFormatter - -------------------------------------------------------------------------------- 
+INFO  09:52:06,361 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.5-0-g36282e4, Compiled 2015/11/25 04:03:56 
+INFO  09:52:06,361 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  09:52:06,361 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  09:52:06,366 HelpFormatter - Program Args: -T HaplotypeCaller -R data/test_ref.fa -I results/aligned.rg.sorted.bam -o results/variants.vcf 
+INFO  09:52:06,369 HelpFormatter - Executing as eisha.sines@afrit.rcms.nust.edu.pk on Linux 2.6.32-431.11.2.el6.x86_64 amd64; OpenJDK 64-Bit Server VM 1.8.0_131-b11. 
+INFO  09:52:06,369 HelpFormatter - Date/Time: 2026/03/02 09:52:06 
+INFO  09:52:06,370 HelpFormatter - -------------------------------------------------------------------------------- 
+INFO  09:52:06,370 HelpFormatter - -------------------------------------------------------------------------------- 
+INFO  09:52:06,512 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  09:52:06,655 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 500 
+INFO  09:52:06,662 SAMDataSource$SAMReaders - Initializing SAMRecords in serial 
+INFO  09:52:06,689 SAMDataSource$SAMReaders - Done initializing BAM readers: total time 0.02 
+INFO  09:52:06,697 HCMappingQualityFilter - Filtering out reads with MAPQ < 20 
+INFO  09:52:06,971 GenomeAnalysisEngine - Preparing for traversal over 1 BAM files 
+INFO  09:52:06,981 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  09:52:06,982 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  09:52:06,982 ProgressMeter -                 |      processed |    time |         per 1M |           |   total | remaining 
+INFO  09:52:06,982 ProgressMeter -        Location | active regions | elapsed | active regions | completed | runtime |   runtime 
+INFO  09:52:06,983 HaplotypeCaller - Disabling physical phasing, which is supported only for reference-model confidence output 
+INFO  09:52:07,023 StrandBiasTest - SAM/BAM data was found. Attempting to use read data to calculate strand bias annotations values. 
+WARN  09:52:07,023 InbreedingCoeff - Annotation will not be calculated. InbreedingCoeff requires at least 10 unrelated samples. 
+INFO  09:52:07,024 StrandBiasTest - SAM/BAM data was found. Attempting to use read data to calculate strand bias annotations values. 
+INFO  09:52:07,070 HaplotypeCaller - Using global mismapping rate of 45 => -4.5 in log10 likelihood units 
+Using SSE4.1 accelerated implementation of PairHMM
+INFO  09:52:07,353 VectorLoglessPairHMM - libVectorLoglessPairHMM unpacked successfully from GATK jar file 
+INFO  09:52:07,353 VectorLoglessPairHMM - Using vectorized implementation of PairHMM 
+INFO  09:52:07,354 VectorLoglessPairHMM - Time spent in setup for JNI call : 0.0 
+INFO  09:52:07,354 PairHMM - Total compute time in PairHMM computeLikelihoods() : 0.0 
+INFO  09:52:07,354 HaplotypeCaller - Ran local assembly on 0 active regions 
+INFO  09:52:07,357 ProgressMeter -            done         100000.0     0.0 s            3.0 s      100.0%     0.0 s       0.0 s 
+INFO  09:52:07,358 ProgressMeter - Total runtime 0.38 secs, 0.01 min, 0.00 hours 
